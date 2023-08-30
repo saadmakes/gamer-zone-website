@@ -1,6 +1,7 @@
 /* media queries */
 /* tablet styles below */
 @media screen and (max-width:786px) {
+
     nav {
         flex-direction: column;
     }
@@ -12,8 +13,12 @@
 
     nav,
     .menu-items,
-    .hero-section {
+    .section4 {
         flex-direction: column;
+    }
+
+    .hero-section {
+        flex-direction: column-reverse;
     }
 
     .hero-content {
@@ -37,5 +42,51 @@
 
     .hero-img img {
         width: 100%;
+    }
+
+    .section2 {
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .section2 img {
+        width: 100%;
+    }
+
+    .section2-content {
+        width: 100vw;
+        text-align: center;
+    }
+
+    .section2-content h3 {
+        font-size: 25px;
+    }
+
+    .section2 p {
+        font-size: 12px;
+        width: 250px;
+        margin: 0 auto;
+        padding: 25px 0;
+    }
+
+    .cards {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .section4-content {
+        padding: 0;
+    }
+
+    .section4-img .img1 {
+        width: 80%
+    }
+
+    .section4-img .img2 {
+        width: 45%;
+        position: relative;
+        top: 240px;
+        left: auto;
+
     }
 }

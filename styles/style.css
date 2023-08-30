@@ -99,7 +99,7 @@ nav {
     text-transform: lowercase;
 }
 
-.hero-content button {
+.btn-primary {
     border: 0;
     padding: 20px 40px;
     margin-right: 25px;
@@ -117,4 +117,144 @@ nav {
 
 .btn-2 {
     background: #4EC5F7;
+}
+
+/* second section styles */
+.section2 {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background: linear-gradient(90deg, rgba(255, 66, 165, 0.03) 0%, rgba(255, 66, 165, 0.03) 100%);
+}
+
+.section2-content {
+    text-align: right;
+}
+
+.we-are-gamer {
+    margin-bottom: 0;
+    font-size: 48px;
+    font-weight: 700;
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+
+.section2 p {
+    color: #534C64;
+    font-size: 18px;
+    font-weight: 400;
+    width: 520px;
+}
+
+.btn-3 {
+    background-color: #FF42A5;
+    margin: 0;
+}
+
+.section2-content h3 {
+    color: #534C64;
+    font-size: 32px;
+    font-weight: 700;
+}
+
+.section2-content h3 span {
+    font-size: 24px;
+    font-weight: 500;
+}
+
+/* section3 styles below */
+.section3 {
+    margin-top: 120px;
+}
+
+.section3-title {
+    color: #0B0223;
+    font-size: 48px;
+    font-weight: 700;
+    margin: 0;
+    text-align: center;
+}
+
+.section3-title span {
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 48px;
+    font-weight: 700;
+
+}
+
+.section3-txt {
+    color: #534C64;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.cards {
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    margin: 45px auto;
+}
+
+.cards figure {
+    margin: 0;
+}
+
+figcaption {
+    color: #534C64;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+/* section4 styles below */
+.section4 {
+    margin-top: 120px;
+    display: flex;
+    gap: 250px;
+    justify-content: center;
+    align-items: center;
+}
+
+.section4-content {
+    padding-top: 300px;
+}
+
+.section4-title {
+    color: #0B0223;
+    font-size: 48px;
+    font-weight: 700;
+    width: 350px;
+    text-align: right;
+    margin: 0;
+}
+
+.section4-title span {
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.section4-txt {
+    color: #534C64;
+    text-align: right;
+    font-size: 18px;
+    font-weight: 400;
+    width: 350px;
+}
+
+.section4-img .img1 {
+    position: absolute;
+}
+
+.section4-img .img2 {
+    position: relative;
+    top: 350px;
+    right: 75px;
 }
