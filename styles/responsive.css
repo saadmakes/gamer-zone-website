@@ -89,4 +89,8 @@
         left: auto;
 
     }
+
+    .roundedboxes {
+        padding: 10px;
+    }
 }

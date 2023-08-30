@@ -267,9 +267,12 @@ figcaption {
 .roundedboxes {
     display: flex;
     justify-content: center;
+    align-content: center;
     flex-wrap: wrap;
     background: linear-gradient(90deg, rgba(255, 66, 165, 0.03) 0%, rgba(255, 66, 165, 0.03) 100%);
     gap: 30px;
+    margin: 120px auto;
+    overflow: hidden;
 }
 
 .roundbox {
@@ -292,4 +295,69 @@ figcaption {
     color: #FF42A5;
     border: 3px solid #FF42A5;
     cursor: pointer;
+}
+
+
+/* footer styles below */
+footer {
+    background: #0B0223;
+    padding: 120px;
+}
+
+.footer-title {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.footer-title img {
+    object-fit: contain;
+}
+
+.gamer {
+    color: #FFF;
+    font-size: 45px;
+    font-weight: 700;
+}
+
+.footer-menu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 60px;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.footer-menu a {
+    text-decoration: none;
+    color: white;
+}
+
+.social-icons {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    margin-top: 50px;
+}
+
+.social-icons a {
+    width: 50px;
+    height: 50px;
+}
+
+#info-menu {
+    color: rgba(255, 255, 255, 0.60);
+    text-align: center;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.footer-credit {
+    color: rgba(255, 255, 255, 0.60);
+    text-align: center;
+    font-size: 16px;
+    font-weight: 500;
+    margin-top: 50px;
 }
