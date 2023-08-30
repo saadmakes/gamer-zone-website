@@ -59,6 +59,7 @@ nav {
 /* hero/banner section styles */
 .hero-section {
     display: flex;
+    justify-content: center;
     gap: 50px;
 
 }
@@ -204,6 +205,7 @@ nav {
 
 .cards figure {
     margin: 0;
+    backface-visibility: hidden;
 }
 
 figcaption {
@@ -328,6 +330,7 @@ footer {
     text-align: center;
     font-size: 18px;
     font-weight: 600;
+    margin-top: 50px;
 }
 
 .footer-menu a {
@@ -338,13 +341,12 @@ footer {
 .social-icons {
     display: flex;
     justify-content: center;
-    gap: 40px;
-    margin-top: 50px;
+    gap: 50px;
+    margin: 50px 0;
 }
 
 .social-icons a {
-    width: 50px;
-    height: 50px;
+    font-size: 40px;
 }
 
 #info-menu {
@@ -361,3 +363,5 @@ footer {
     font-weight: 500;
     margin-top: 50px;
 }
+
+/* I'm really sorry for submitting late. Finally finished somehow. Not satisfied coz I couldn't do the hover effect in section3 cards. */
