@@ -1,0 +1,41 @@
+/* media queries */
+/* tablet styles below */
+@media screen and (max-width:786px) {
+    nav {
+        flex-direction: column;
+    }
+}
+
+
+/* mobile styles below */
+@media screen and (max-width:490px) {
+
+    nav,
+    .menu-items,
+    .hero-section {
+        flex-direction: column;
+    }
+
+    .hero-content {
+        padding: 50px;
+    }
+
+    .txt-1 {
+        font-size: 35px;
+    }
+
+    .txt-2 {
+        font-size: 70px;
+    }
+
+    .hero-content button {
+        border: 0;
+        padding: 10px 20px;
+        margin-right: 15px;
+    }
+
+
+    .hero-img img {
+        width: 100%;
+    }
+}
